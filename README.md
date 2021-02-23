@@ -16,7 +16,7 @@ add a password.py file to your directory and add the following with your number 
 ```
 passw = "Your-password"
 number = "Your-number"
-
+```
 
 Set up the schedule and you're good to go! :)
 

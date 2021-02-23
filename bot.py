@@ -23,8 +23,6 @@ def setup_schedules():
     schedule.every().thursday.at("10:00").do(run_bot)
     schedule.every().thursday.at("11:00").do(run_bot)
 
-    schedule.every().tuesday.at("14:03").do(run_bot)
-
 def run_bot():
         try:
             browser = webdriver.Firefox(executable_path="./drivers/geckodriver")
@@ -89,8 +87,7 @@ def run_bot():
             print(e)
 setup_schedules()
 print("Bot has started :)")
-# while(True):
-#     schedule.run_pending()
-#     time.sleep(1)
 
-run_bot()
+while(True):
+    schedule.run_pending()
+    time.sleep(1)
