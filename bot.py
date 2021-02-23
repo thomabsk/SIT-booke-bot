@@ -1,6 +1,4 @@
 
-#Setup https://linuxhint.com/using_selenium_firefox_driver/
-
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
